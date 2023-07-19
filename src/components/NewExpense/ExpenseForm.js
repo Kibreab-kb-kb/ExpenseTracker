@@ -2,6 +2,7 @@ import React,{useState} from "react";
 import './ExpenseForm.css';
 
 const ExpenseForm = (props) => {
+    //multiple state
 
     const [Title,setTitle]=useState('');
     const [amount,setAmount]=useState('');
@@ -10,6 +11,8 @@ const ExpenseForm = (props) => {
     const titleChangeHandler=(event)=>{
         setTitle(event.target.value);
     }
+
+
 
     const amountChangeHandler=(event)=>{
         setAmount(event.target.value);
