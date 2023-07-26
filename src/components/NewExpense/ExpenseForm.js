@@ -9,13 +9,13 @@ const ExpenseForm = (props) => {
     const [date,setDate]=useState('');
 
     const titleChangeHandler=(event)=>{
-        setTitle(event.target.value);//updating 
+        setTitle(event.target.value);//updating....
     }
 
 
 
     const amountChangeHandler=(event)=>{
-        setAmount(event.target.value);//setter
+        setAmount(event.target.value);//setter.....
     }
 
     const dateChangeHandler=(event)=>{
