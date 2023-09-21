@@ -1,5 +1,5 @@
 import React,{useState} from "react";//importing some dependecy
-import './ExpenseForm.css';
+import './ExpenseForm.css';//importing 
 
 const ExpenseForm = (props) => {
     //using multiple state
@@ -9,13 +9,13 @@ const ExpenseForm = (props) => {
     const [date,setDate]=useState('');
 
     const titleChangeHandler=(event)=>{
-        setTitle(event.target.value);
+        setTitle(event.target.value);//updating....
     }
 
 
 
     const amountChangeHandler=(event)=>{
-        setAmount(event.target.value);
+        setAmount(event.target.value);//setter.....
     }
 
     const dateChangeHandler=(event)=>{
@@ -85,4 +85,4 @@ const ExpenseForm = (props) => {
      );
 }
  
-export default ExpenseForm;
+export default ExpenseForm;//exporting expense form
