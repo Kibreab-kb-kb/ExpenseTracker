@@ -11,7 +11,7 @@ const Expenses = ({items}) => {
       <ExpenseItem
       key={index}
       title={expense.title}
-      amount={expense.amount}
+      amount={expense.amount} 
       date={expense.date}
       />
      ))}
